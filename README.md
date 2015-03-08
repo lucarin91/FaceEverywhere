@@ -9,7 +9,7 @@
   - Linkedin
   - Pinterest
 
-### Server:
+### Server
 #### Structure:
 The server is split in two docker container, one for the express app and another for the mogo database. They are created thought the docker-compose.yml file.
   - web-framework: Express.js
@@ -21,6 +21,6 @@ The server is split in two docker container, one for the express app and another
 - Install docker-compose [guide](https://docs.docker.com/compose/install/#install-compose).
 - in the main folder of the project execute the script ./start.sh (for now is only for linux/mac user, but can be easyly translate in a .bat file for windows)
 
-### MobileApp:
+### MobileApp
   - IonicFramework
   - Angular.js
