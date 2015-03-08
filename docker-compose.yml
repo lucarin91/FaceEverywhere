@@ -1,0 +1,11 @@
+app:
+  build: .
+  links:
+    - mongo
+  ports:
+    - "8080:80"
+  volumes:
+    - app-face:/home/app/app-face
+
+mongo:
+  image: dockerfile/mongodb
