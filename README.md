@@ -10,8 +10,10 @@
   - Pinterest
 
 ### Server:
-  - possible framework: Express.js or Django
-  - possible database: MongoDB or PostgreSQL
+The split in two docker container, one for the express app and another for the mogo database.
+  - web-framework: Express.js
+  - database: MongoDB
+  - other: docker and docker-compose
 
 ### MobileApp:
   - IonicFramework
