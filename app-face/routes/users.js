@@ -20,7 +20,7 @@ router.post('/', function(req, res, next) {
   });
 });
 
-/* GET /users/id */
+/* GET /users/:id */
 router.get('/:id', function(req, res, next) {
   Users.findById(req.params.id, function (err, post) {
     if (err) return next(err);
