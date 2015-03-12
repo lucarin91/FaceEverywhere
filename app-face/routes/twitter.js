@@ -76,8 +76,8 @@ router.get('/callback', function(req, res, next) {
               //done();
 
             });
+            res.send("Authentication Successful");
 
-            res.send("Authentication Successful " +data);
           // res.redirect('/'); // You might actually want to redirect!
         }
       }
